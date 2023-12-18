@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refine Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .refine-option {
+            margin-bottom: 10px;
+        }
+
+        .refine-option label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .refine-option select {
+            padding: 5px;
+            width: 100%;
+        }
+
+        .btn {
+            background-color: #06022e;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+        }
+
+        .btn:hover {
+            background-color: #0d052d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Refine </h1>
+        <form>
+            <div class="refine-option">
+                <label for="category">Select Your Availability</label>
+                <select id="category" name="category">
+                    <option value="">Available | Hey Let Us Connect</option>
+                    <option value="clothing">Away | Stay Discrete and Watch</option>
+                    <option value="electronics">Busy | Do Not Disturb</option>
+                    <option value="home">SOS | Emergency !</option>
+                </select>
+            </div>
+
+            <div class="refine-option">
+                <label for="price">Add Your Status</label>
+                <select id="price" name="price">
+                    <text value="">Hi community! I am open to new connctions</text>
+                </select>
+            </div>
+
+            <div class="refine-option">
+                <label for="color">Select Purpose</label>
+                <select id="color" name="color">
+                    <option value="">Coffee</option>
+                    <option value="red">Business</option>
+                    <option value="blue">Friendship</option>
+                    <option value="green">Hobbies</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn">Save & Explore</button>
+        </form>
+    </div>
+</body>
+</html>
